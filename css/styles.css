@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*  Press Cmd + '?' to comment/uncomment the selected text. */
+
 html,
 body {
    font-family: 'Poppins', sans-serif;
@@ -66,7 +68,6 @@ p {
 } */
 
 
-
 /* Font Properties */
 
 h2 {
@@ -89,13 +90,14 @@ h2 {
 4. Element */
 
 /* Background Properties */
-/* .hero-section { */
-/* height: 100vh;
+/* .hero-section {
+   height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    padding: 0 20px; */
+
 /* Background */
 /* background-color: coral; */
 /* background-image: url('https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&w=600'); */
@@ -109,12 +111,12 @@ h2 {
 /* background: linear-gradient(to bottom, lightblue, darkblue) */
 /* background: linear-gradient(to right, lightgreen, darkblue) */
 /* background: linear-gradient(to left, lightgreen, darkblue) */
-
 /* } */
+
 
 /* Styling Links */
 
-a {
+/* a {
    text-decoration: none;
    color: #333333
 }
@@ -133,4 +135,4 @@ a:focus {
 
 a:visited {
    color: coral;
-}
+} */
