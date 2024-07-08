@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body {
+   font-family: 'Poppins', sans-serif;
+   line-height: 1;
+   /* 2. Hexadecimal */
+   /* a-z and 0-9 */
+   /* b58175 => hexdecimal code */
+   /* background-color: #E1E1E1E1; */
+   /* background-color: #b58175; */
+   margin: 0;
+}
+
+/* #000000 => black
+#ffffff => white
+*/
+
+/* Type Selector */
+p {
+   /* 3. RGB => Red Green Blue */
+   /* RGB => 0 - 255 */
+   /* color: rgb(red, green, blue) */
+   /* color: rgb(255, 255, 255); */
+   /* color: #706ce5; */
+   /* 4. RGBA => Red Green Blue Alpha */
+   /* color:rgba(red, green, blue, alpha) */
+   color: rgb(0, 0, 0, 0.5)
+}
+
+/* opacity */
+/* Range => 0 - 1 */
+/* img {
+   opacity: 0.5;
+} */
+
+/* Class Selector */
+.sporty {
+   color: red;
+}
+
+.casual {
+   color: blue;
+}
+
+.formal {
+   color: brown;
+}
+
+/* ID Selector */
+
+#container {
+   max-width: 600px;
+   margin: 100px auto;
+   padding: 20px;
+}
+
+/* .sporty,
+.casual {
+   font-size: 35px;
+} */
+
+/* Descedant Styles  */
+/* #container p {
+   background: blue;
+} */
+
+
+
+/* Font Properties */
+
+h2 {
+   font-size: 40px;
+   font-weight: 700;
+   font-style: normal;
+   font-variant: normal;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   word-spacing: 10px;
+   text-align: left;
+}
+
+/* Specificity => is an alogrithm */
+/* General Term => Priorty */
+/* Alogrithm :An algorithm is just a set of steps you follow to solve a problem */
+/* 1. Inline CSS
+2. ID#
+3. Class
+4. Element */
+
+/* Background Properties */
+/* .hero-section { */
+/* height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0 20px; */
+/* Background */
+/* background-color: coral; */
+/* background-image: url('https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* background-position: x-axis ,y-axis; */
+/* background-position: center; */
+/* background-image background-repeat background-position background-size */
+/* background: url('') no-repeat center/cover */
+/* Linear Gradient */
+/* background: linear-gradient(to bottom, lightblue, darkblue) */
+/* background: linear-gradient(to right, lightgreen, darkblue) */
+/* background: linear-gradient(to left, lightgreen, darkblue) */
+
+/* } */
+
+/* Styling Links */
+
+a {
+   text-decoration: none;
+   color: #333333
+}
+
+a:hover {
+   color: red;
+}
+
+a:active {
+   background-color: purple;
+}
+
+a:focus {
+   background: yellow;
+}
+
+a:visited {
+   color: coral;
+}
